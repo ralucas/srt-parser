@@ -7,17 +7,29 @@
 $ npm install --save srt-parser
 ```
 
+or for command line usage (Recommended)
+
+```sh
+$ npm install -g srt-parser
+```
+
 ## Usage
 
 ```js
 var srtParser = require('srt-parser');
 
-srtParser('Rainbow');
+srtParser('/directory/of/srt/files', 'combined_file.md');
 ```
+
+Via command line:
+
+```sh
+$ srtparser /directory/of/srt/files combined_file.md
+```
+
 ## License
 
-MIT © [R.A. Lucas]()
-
+MIT © [R.A. Lucas](https://github.com/ralucas)
 
 [npm-image]: https://badge.fury.io/js/srt-parser.svg
 [npm-url]: https://npmjs.org/package/srt-parser
