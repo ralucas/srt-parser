@@ -1,6 +1,6 @@
 {
   "name": "srt-parser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parser for a folder of SRT files",
   "homepage": "",
   "author": {
@@ -38,7 +38,9 @@
     "test": "gulp"
   },
   "license": "MIT",
-  "bin": "lib/cli.js",
+  "bin": {
+    "srtparser": "lib/cli.js"
+  },
   "dependencies": {
     "meow": "^3.7.0"
   }
