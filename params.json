@@ -1,0 +1,6 @@
+{
+  "name": "Srt-parser",
+  "tagline": "Parses out srt files into a readable format",
+  "body": "# srt-parser [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]\r\n> Parser for a folder of SRT files\r\n\r\n## Installation\r\n\r\n```sh\r\n$ npm install --save srt-parser\r\n```\r\n\r\nor for command line usage (Recommended)\r\n\r\n```sh\r\n$ npm install -g srt-parser\r\n```\r\n\r\n## Usage\r\n\r\n```js\r\nvar srtParser = require('srt-parser');\r\n\r\nsrtParser('/directory/of/srt/files', 'combined_file.md');\r\n```\r\n\r\nVia command line:\r\n\r\n```sh\r\n$ srtparser /directory/of/srt/files combined_file.md\r\n```\r\n\r\n## License\r\n\r\nMIT © [R.A. Lucas](https://github.com/ralucas)\r\n\r\n[npm-image]: https://badge.fury.io/js/srt-parser.svg\r\n[npm-url]: https://npmjs.org/package/srt-parser\r\n[travis-image]: https://travis-ci.org/ralucas/srt-parser.svg?branch=master\r\n[travis-url]: https://travis-ci.org/ralucas/srt-parser\r\n[daviddm-image]: https://david-dm.org/ralucas/srt-parser.svg?theme=shields.io\r\n[daviddm-url]: https://david-dm.org/ralucas/srt-parser\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
