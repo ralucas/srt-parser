@@ -1,6 +1,6 @@
 {
   "name": "srt-parser",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Parser for a folder of SRT files",
   "homepage": "",
   "author": {
